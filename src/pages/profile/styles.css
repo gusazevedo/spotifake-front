@@ -1,0 +1,87 @@
+.my-container {
+  width: 100%;
+}
+
+.profile-container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-corner .my-profile {
+  background-color: #525ecf;
+  box-shadow: 0px 0px 45px rgb(153, 152, 152);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.left-corner .my-profile .protile-pic {
+  width: 320px;
+  border: 1px solid #525ecf;
+  border-radius: 50%;
+}
+
+.left-corner .my-profile h1 {
+  margin-top: 15px;
+  color: white;
+}
+
+.left-corner .my-profile .profile-followers {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+
+  font-weight: 600;
+  color: white;
+  background-color: #6b77e8;
+  border-radius: 4px;
+}
+
+.seguindo,
+.seguidores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-list ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.album-list ul img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 4px;
+  margin: 10px;
+  box-shadow: 0px 0px 15px rgb(153, 152, 152);
+}
+
+.songs-list {
+  margin-top: 30px;
+}
+
+.songs-list table {
+  width: 100%;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  margin-top: 20px;
+}
+
+.songs-list table tr {
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.songs-list table td {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding: 10px;
+}
+
+.songs-list table td button {
+  margin-right: 10px;
+}

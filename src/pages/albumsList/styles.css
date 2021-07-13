@@ -1,0 +1,30 @@
+h1.title {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  row-gap: 35px;
+  width: 80%;
+  margin: 40px auto 0;
+}
+
+.album-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-card img {
+  width: 90%;
+  position: relative;
+  border-radius: 4px;
+}
+
+.album-card span {
+  font-size: 1.5rem;
+}
